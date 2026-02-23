@@ -1,3 +1,0 @@
-## Data Attribution
-- **raw/** dataset provided by [Santosh Kumar (IEEE DataPort)](https://ieee-dataport.org/documents/edge-ai-sensor-dataset)  
-- **processed/** dataset, analytical logic, KPI definitions, and anomaly detection framework are my original work.
