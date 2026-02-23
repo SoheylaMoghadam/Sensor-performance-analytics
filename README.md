@@ -11,6 +11,7 @@ This project focuses on analyzing multi-modal industrial operational datasets to
 - **Anomaly Detection:** 
   - Implemented Z-Score logic with dual thresholds (Warning >2, Critical >3).  
   - Flagged performance drift 30 minutes before documented failures.
+  ![Industrial Sensor Anomaly Detection](images/sensor_anomaly_detection.png)
 
 ## Repository Structure
 - `notebooks/` – Python analysis (EDA, KPI engineering, anomaly detection)  
