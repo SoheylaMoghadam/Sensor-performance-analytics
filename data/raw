@@ -1,3 +1,0 @@
-Data Structure:
-- Raw Data: To maintain data integrity and respect authorship, the original dataset is not hosted in this repository. You can access the source files here: [Edge-AI Sensor Fault Dataset](https://github.com/Santy3298/dge-ai-sensor-fault-dataset).
-- Processed Data: The final engineered dataset used for this analysis is available in the `data/processed/` folder.
