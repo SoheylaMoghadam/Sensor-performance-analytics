@@ -1,16 +1,11 @@
 # Sensor Performance Analytics | Industrial IoT & KPI Monitoring
 
-## Project Overview
-This project focuses on analyzing multi-modal industrial operational datasets to monitor machine performance, identify degradation patterns, and detect anomalies. Using data from a CNC manufacturing environment, I developed a synchronized analytical engine and a multi-tier anomaly detection system to support predictive maintenance.
+In this project, I built a monitoring framework for CNC manufacturing equipment using multi-sensor industrial data. The goal was to move beyond simple anomaly detection and create a health scoring system that highlights degradation trends before failure occurs.
 
-## Key Achievements
-- **Multi-Sensor Integration:** Combined 6 industrial data streams (Vibration, Temperature, Pressure, Humidity, PLC Logs, Machine Status) into a unified Master DataFrame.
-- **KPI Engineering:**
-  1. Machine Availability: 95.83%
-  2. Rolling statistics to reduce noise and reveal degradation trends.
-- **Anomaly Detection:** 
-  - Implemented Z-Score logic with dual thresholds (Warning >2, Critical >3).  
-  - Flagged performance drift 3 hours before documented failures.
+The final model integrates vibration behavior, temperature drift, and alert concentration into a single Machine Health Index (0–100). By incorporating vibration velocity (rate of change), the model became more sensitive to rapid degradation patterns.
+
+As a result, the system detected a performance decline approximately 3 hours before the recorded critical failure event.
+
   ![Industrial Sensor Anomaly Detection](images/sensor_anomaly_detection.png)
 
 ## Repository Structure
