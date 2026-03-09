@@ -1,10 +1,10 @@
 # Sensor Performance Analytics | Industrial IoT & KPI Monitoring
 
-In this project, I built a monitoring framework for CNC manufacturing equipment using multi-sensor industrial data. The goal was to move beyond simple anomaly detection and create a health scoring system that highlights degradation trends before failure occurs.
+In this project, I built a monitoring framework for CNC manufacturing equipment using multi-sensor industrial data. The goal was to go beyond simple anomaly detection and create a health scoring system that shows degradation trends before failures happen.
 
-The final model integrates vibration behavior, temperature drift, and alert concentration into a single Machine Health Index (0–100). By incorporating vibration velocity (rate of change), the model became more sensitive to rapid degradation patterns.
+The model combines vibration behavior, temperature drift, and alert concentration into a single Machine Health Index (0–100). By including vibration velocity (rate of change), it became more sensitive to gradual and rapid performance drifts.
 
-As a result, the system detected a performance decline approximately 3 hours before the recorded critical failure event.
+As a result, the system was able to detect performance decline about 3 hours before critical failure events.
 
   ![Industrial Sensor Anomaly Detection](images/sensor_anomaly_detection.png)
 
@@ -21,9 +21,9 @@ As a result, the system detected a performance decline approximately 3 hours bef
 - **processed/** dataset, analytical logic, KPI definitions, and anomaly detection framework are my original work.
 
 ## Tech Stack
-- Python (Pandas, NumPy, Matplotlib)  
-- Power BI  
-- Time-Series Analysis | Statistical Outlier Detection | Feature Engineering  
+- Python: Pandas, NumPy, Matplotlib
+- Power BI: Interactive Dashboards, Advanced DAX, Time-Series Visualization
+- Analytics: Time-Series Analysis | Statistical Outlier Detection | Feature Engineering
 
 ## Author
 **Soheyla Moghadam**  
